@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #444;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.section {
+  width: 100%;
+  height: 100vh;
+}
+/* ====================== */
+
+#fp-nav ul li a span {
+  background: rgb(118, 151, 240) !important;
+}
+#fp-nav ul li a.active span {
+  background: rgb(52, 88, 185) !important;
+}
+#fp-nav {
+padding: 10px;
+}
+
+/* ================ */
+.section img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+/* =========== */
+.text_box1 h1, h2 {
+  color: #2e63af;
+  text-align: center;
+}
+.text_box1 h1 {
+  font-size: 70px;
+}
+.text_box1 h2 {
+  font-weight: normal;
+  font-size: 40px;
+}
+.text_box2 h3 {
+  font-size: 40px;
+  padding: 50px;
+  text-align: center;
+}
+.text_box2 p {
+  text-align: center;
+  font-size: 25px;
+  line-height: 40px;
+}
+.text_box3 p {
+  text-align: center;
+  font-size: 25px;
+  padding: 40px;
+  line-height: 40px;
+}
+.text_box3 span {
+  transition: 2s;
+}
+.section2:hover .text_box3 span {
+ background-color: #ea9cac;
+}
+/* ========= */
+
+.text_box4 h1 {
+  color: #ea9cac;
+  font-size: 50px;
+  padding: 60px;
+  padding-bottom: 0px;
+}
+
+.text_box5 h1 {
+  color: #2e63af;
+  font-size: 30px;
+  padding: 30px;
+  
+}
+.text_box5 img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.con1 {
+  height: 70%;
+}
+.con1>ul {
+  margin-left: 70px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.con1>ul>li {
+  width: 40%;
+  padding: 10px;
+}
+.con1>ul>li>p {
+  font-size: 30px;
+  text-align: center;
+}
+.con1>ul>li>p>span {
+  font-weight: bold;
+  color: #2e63af;
+}
+.con1 img {
+  max-width: 100%;
+  height: 100%;
+object-fit: cover;
+border-radius: 30px;
+}
+
+/* ================ */
+.text_box6 {
+  position: relative;
+  top: 0px;
+  left: 0px;
+}
+.text_box6>img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.con1-2 {
+  height: 70vh;
+}
+.con1-2>ul {
+  margin-top: 100px;
+}
+/* ========= */
+.con1-2 .img3-2 {
+  max-width: 16%;
+  height: 40%;
+  position: relative;
+  top: -250px;
+  left: 800px;
+}
+
+.section6 img {
+  display: block;
+  margin: 0 auto;
+  max-width: 40%;
+  height: 100%;
+}
